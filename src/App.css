@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input[type="text"]
+{
+  color: white;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  text-align: center;
+  font-size: 40px;
+}
